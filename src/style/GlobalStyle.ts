@@ -11,5 +11,11 @@ ${reset}
 html, body {
   min-width: 380px;
   max-width: 1375px;
+  margin: 0 auto;
+  height: 100vh
+}
+
+#root {
+  height: 100%;
 }
 `;
