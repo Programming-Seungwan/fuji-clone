@@ -1,3 +1,7 @@
-export default function Layout() {
+interface LayoutProp {
+  children: React.ReactNode;
+}
+
+export default function Layout({ children }: LayoutProp) {
   return;
 }
