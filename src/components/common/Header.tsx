@@ -1,17 +1,23 @@
 import styled from 'styled-components';
 
+const HeaderTabArray = [
+  '신제품',
+  '프로모션',
+  '카메라',
+  '렌즈',
+  '액세서리',
+  '프로젝터',
+  '오리지널 굿즈',
+];
+
 export default function Header() {
   return (
     <HeaderContainer>
       <ResponsiveLogoImage />
       <LinkGroup>
-        <p>신제품</p>
-        <p>프로모션</p>
-        <p>카메라</p>
-        <p>렌즈</p>
-        <p>액세서리</p>
-        <p>프로젝터</p>
-        <p>오리지널 굿즈</p>
+        {HeaderTabArray.map((el) => (
+          <p>{el}</p>
+        ))}
       </LinkGroup>
       <MagnifyingGlass />
     </HeaderContainer>
