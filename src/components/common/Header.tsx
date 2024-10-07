@@ -1,4 +1,8 @@
 import styled from 'styled-components';
+import BigFujiLogoURL from '@assets/image/logo/BigFujiLogo.png';
+import SmallFujiLogoURL from '@assets/image/logo/SmallFujiLogo.png';
+import BigMagnifyingGlassURL from '@assets/image/SVG/BigMagnifyingGlass.svg';
+import SmallMagnifyingGlassURL from '@assets/image/SVG/SmallMagnifyingGlass.svg';
 
 const HeaderTabArray = [
   '신제품',
@@ -38,11 +42,11 @@ const HeaderContainer = styled.header`
 
 const ResponsiveLogoImage = styled.img`
   @media (max-width: 767px) {
-    content: url('/assets/image/logo/SmallFujiLogo.png');
+    content: url(${SmallFujiLogoURL});
   }
 
   @media (min-width: 768px) {
-    content: url('/assets/image/logo/BigFujiLogo.png');
+    content: url(${BigFujiLogoURL});
     margin-right: 253px;
   }
 `;
@@ -61,11 +65,11 @@ const LinkGroup = styled.div`
 
 const MagnifyingGlass = styled.img`
   @media (max-width: 767px) {
-    content: url('/assets/image/SVG/SmallMagnifyingGlass.svg');
+    content: url(${SmallMagnifyingGlassURL});
   }
 
   @media (min-width: 768px) {
-    content: url('/assets/image/SVG/BigMagnifyingGlass.svg');
+    content: url(${BigMagnifyingGlassURL});
     margin-left: 211px;
   }
   cursor: pointer;
