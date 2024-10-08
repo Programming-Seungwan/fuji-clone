@@ -12,13 +12,13 @@ export default function Home() {
   return (
     <HomeContainer>
       <HeroCarousel />
-      <NewProducts />
-      <Promotion />
-      <Lens />
-      <Camera />
-      <Accessory />
-      <Projector />
-      <OriginalGoods />
+      {/* <NewProducts /> */}
+      {/* <Promotion /> */}
+      {/* <Lens /> */}
+      {/* <Camera /> */}
+      {/* <Accessory /> */}
+      {/* <Projector /> */}
+      {/* <OriginalGoods /> */}
     </HomeContainer>
   );
 }

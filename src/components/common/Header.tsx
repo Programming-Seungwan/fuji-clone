@@ -29,9 +29,10 @@ export default function Header() {
 }
 
 const HeaderContainer = styled.header`
-  position: absolute;
+  position: fixed;
   top: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
   height: 70px;
   z-index: 100;
   background-color: ${(props) => props.theme.colors.primary};
