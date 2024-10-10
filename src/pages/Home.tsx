@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import HeroCarousel from '@components/home/HeroCarousel';
 import NewProducts from '@components/home/NewProduct';
-import Promotion from '@components/home/Promotion';
+import Promotion from '@components/home/Promotion/Promotion';
 import Lens from '@components/home/Lens';
 import Camera from '@components/home/Camera';
 import Accessory from '@components/home/Accessory';
@@ -13,7 +13,7 @@ export default function Home() {
     <HomeContainer>
       <HeroCarousel />
       <NewProducts />
-      {/* <Promotion /> */}
+      <Promotion />
       {/* <Lens /> */}
       {/* <Camera /> */}
       {/* <Accessory /> */}
