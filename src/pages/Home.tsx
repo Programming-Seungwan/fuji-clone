@@ -15,7 +15,7 @@ export default function Home() {
       <NewProducts />
       <Promotion />
       <Lens />
-      {/* <Camera /> */}
+      <Camera />
       {/* <Accessory /> */}
       {/* <Projector /> */}
       {/* <OriginalGoods /> */}

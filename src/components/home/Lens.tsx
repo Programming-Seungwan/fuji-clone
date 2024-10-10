@@ -68,5 +68,7 @@ const LensGridContainer = styled.div`
   @media (max-width: 767px) {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 10px;
+    column-gap: 12px;
+    row-gap: 16px;
   }
 `;

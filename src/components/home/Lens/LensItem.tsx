@@ -47,6 +47,7 @@ const LensItemDescription = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
+  line-height: 1.5;
 
   p {
     width: 90%;
