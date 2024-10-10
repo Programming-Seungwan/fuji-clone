@@ -30,5 +30,8 @@ const FooterLinks = styled.div`
     color: #9d9d9d;
     box-shadow: 0 0 0 0.5px #9d9d9d;
     padding: 5px;
+    &:hover {
+      cursor: pointer;
+    }
   }
 `;

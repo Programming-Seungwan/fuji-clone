@@ -23,4 +23,11 @@ html, body {
 #root {
   height: 100%;
 }
+
+button {
+  all: unset;         /* 기본 스타일 완전히 제거 */
+  display: inline-block; /* 버튼을 인라인 블록으로 유지 */
+  cursor: pointer;    /* 커서 모양을 클릭 가능한 형태로 변경 */
+}
+
 `;
