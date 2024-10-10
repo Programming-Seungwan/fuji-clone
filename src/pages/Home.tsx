@@ -14,7 +14,7 @@ export default function Home() {
       <HeroCarousel />
       <NewProducts />
       <Promotion />
-      {/* <Lens /> */}
+      <Lens />
       {/* <Camera /> */}
       {/* <Accessory /> */}
       {/* <Projector /> */}
