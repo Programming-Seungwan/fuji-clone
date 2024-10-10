@@ -1,11 +1,12 @@
 import NewProductImageURL from '@assets/image/photos/NewProducts/Rectangle 4.png';
 import RightChaveronSVGURL from '@assets/image/photos/NewProducts/rightChaveron.svg';
 import styled from 'styled-components';
+import SectionName from '@components/common/Home/SectionName';
 
 export default function NewProduct() {
   return (
     <NewProductContainer>
-      <NewProductSpan>신제품</NewProductSpan>
+      <SectionName nameString="신제품" />
       <MainNewProductArea>
         <MainNewProductImage />
         <MainNewProductDescription>
@@ -29,20 +30,6 @@ const NewProductContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-`;
-
-const NewProductSpan = styled.span`
-  font-weight: bold;
-
-  @media (max-width: 767px) {
-    font-size: 18px;
-    padding: 21px 0px;
-  }
-
-  @media (min-width: 768px) {
-    font-size: 32px;
-    padding: 30px 0px;
-  }
 `;
 
 const MainNewProductArea = styled.div`

@@ -9,6 +9,7 @@ import PromotionItemOneImageUrl from '@assets/image/photos/Promotion/Rectangle 5
 import PromotionItemTwoImageUrl from '@assets/image/photos/Promotion/Rectangle 6.png';
 import PromotionItemThreeImageUrl from '@assets/image/photos/Promotion/Rectangle 7.png';
 import PromotionItemFourImageUrl from '@assets/image/photos/Promotion/Rectangle 8.png';
+import SectionName from '@components/common/Home/SectionName';
 import { useMemo } from 'react';
 
 export default function Promotion() {
@@ -43,7 +44,7 @@ export default function Promotion() {
 
   return (
     <PromotionContainer>
-      <PromotionSpan>프로모션</PromotionSpan>
+      <SectionName nameString="프로모션" />
       <PromotionGridContainer>
         {memoPromotionItems.map((element, idx) => {
           return (
@@ -68,18 +69,18 @@ const PromotionContainer = styled.div`
   width: 100%;
 `;
 
-const PromotionSpan = styled.span`
-  font-weight: bold;
-  @media (max-width: 767px) {
-    font-size: 18px;
-    padding: 21px;
-  }
+// const PromotionSpan = styled.span`
+//   font-weight: bold;
+//   @media (max-width: 767px) {
+//     font-size: 18px;
+//     padding: 21px;
+//   }
 
-  @media (min-width: 768px) {
-    font-size: 32px;
-    padding: 28px;
-  }
-`;
+//   @media (min-width: 768px) {
+//     font-size: 32px;
+//     padding: 28px;
+//   }
+// `;
 
 const PromotionGridContainer = styled.div`
   display: grid;
