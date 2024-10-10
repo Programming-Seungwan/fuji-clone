@@ -62,6 +62,10 @@ const LinkGroup = styled.div`
     color: ${(props) => props.theme.colors.themeBlack};
     font-size: 14px;
   }
+
+  @media (max-width: 767px) {
+    visibility: hidden;
+  }
 `;
 
 const MagnifyingGlass = styled.img`
