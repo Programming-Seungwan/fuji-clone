@@ -23,6 +23,7 @@ export default function PromotionItem({
       <PromotionDescription>
         <p>{descriptionString}</p>
       </PromotionDescription>
+      <PromotionItemButton>MORE</PromotionItemButton>
     </PromotionItemContainer>
   );
 }
@@ -76,6 +77,9 @@ const PromotionDescription = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
+  height: 42px;
+  font-size: 10px;
+  margin-bottom: 18px;
 
   p {
     width: 90%;
@@ -83,9 +87,23 @@ const PromotionDescription = styled.div`
 
   @media (max-width: 767px) {
     font-size: 6px;
+    height: 24px;
+    margin-bottom: 12spx;
   }
+`;
 
-  @media (min-width: 768px) {
+const PromotionItemButton = styled.button`
+  background-color: ${(props) => props.theme.colors.themeBlue};
+  color: white;
+  font-size: 12px;
+  width: 68px;
+  height: 30px;
+  margin-bottom: 13px;
+
+  @media (max-width: 767px) {
     font-size: 10px;
+    width: 49px;
+    height: 18px;
+    margin-bottom: 11px;
   }
 `;
