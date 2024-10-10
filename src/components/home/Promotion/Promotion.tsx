@@ -69,19 +69,6 @@ const PromotionContainer = styled.div`
   width: 100%;
 `;
 
-// const PromotionSpan = styled.span`
-//   font-weight: bold;
-//   @media (max-width: 767px) {
-//     font-size: 18px;
-//     padding: 21px;
-//   }
-
-//   @media (min-width: 768px) {
-//     font-size: 32px;
-//     padding: 28px;
-//   }
-// `;
-
 const PromotionGridContainer = styled.div`
   display: grid;
   width: 80%;
