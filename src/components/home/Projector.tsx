@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import SectionName from '@components/common/Home/SectionName';
-import ProjectorImageOneUrl from '@assets/image/photos/Projector/Rectangle 45.png';
-import ProjectorImageTwoUrl from '@assets/image/photos/Projector/Rectangle 46.png';
+import ProjectorImageOneUrl from '@assets/image/photos/Projector/Rectangle 20.png';
+import ProjectorImageTwoUrl from '@assets/image/photos/Projector/Rectangle 21.png';
 import {
   projectorFeatureList,
   projectorNameList,

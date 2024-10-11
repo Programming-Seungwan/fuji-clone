@@ -18,7 +18,7 @@ export default function Home() {
       <Camera />
       <Accessory />
       <Projector />
-      {/* <OriginalGoods /> */}
+      <OriginalGoods />
     </HomeContainer>
   );
 }
