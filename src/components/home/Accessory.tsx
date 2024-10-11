@@ -1,3 +1,3 @@
 export default function Accessory() {
-  return;
+  return <></>;
 }
