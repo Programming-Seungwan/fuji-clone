@@ -17,7 +17,7 @@ export default function Home() {
       <Lens />
       <Camera />
       <Accessory />
-      {/* <Projector /> */}
+      <Projector />
       {/* <OriginalGoods /> */}
     </HomeContainer>
   );
