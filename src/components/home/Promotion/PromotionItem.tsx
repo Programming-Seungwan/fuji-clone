@@ -15,7 +15,7 @@ export default function PromotionItem({
 }: PromotionItemProps) {
   return (
     <PromotionItemContainer>
-      <img src={imageUrlString} />
+      <PromotionItemImage src={imageUrlString} />
       <PromotionMainContent>
         <p>{mainContent}</p>
       </PromotionMainContent>
@@ -33,6 +33,10 @@ const PromotionItemContainer = styled.section`
   flex-direction: column;
   align-items: center;
   background-color: ${(props) => props.theme.colors.primary};
+`;
+
+const PromotionItemImage = styled.img`
+  width: 100%;
 `;
 
 const PromotionMainContent = styled.div`
