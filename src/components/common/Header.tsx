@@ -39,6 +39,10 @@ const HeaderContainer = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 767px) {
+    padding: 0px 15px;
+  }
 `;
 
 const ResponsiveLogoImage = styled.img`
